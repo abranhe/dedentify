@@ -1,0 +1,32 @@
+{
+	"name": "dedentify",
+	"version": "0.0.1",
+	"description": "Remove indentation inside strings.",
+	"license": "MIT",
+	"repository": "abranhe/dedentify",
+	"author": {
+		"name": "Abraham Hernandez",
+		"email": "abraham@abranhe.com",
+		"url": "https://abranhe.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"indent",
+		"string",
+		"template-string"
+	],
+	"devDependencies": {
+		"ava": "^2.2.0",
+		"tsd": "^0.7.3",
+		"xo": "^0.24.0"
+	}
+}
